@@ -13,10 +13,12 @@ body {
 
   margin: auto;
   margin-top: 10px;  
-  width: 60%;
+  width: 960px;
   float : center;
   font-size: 18px;
   line-height: 32px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
   color: #666;  
   background: #666;
 }
@@ -35,21 +37,22 @@ section {
   padding: 20px;
   margin-top : 20px;
   margin-bottom: 20px;  
+
   background: #ccc;
 }
 
-#left {
+#section {
   float: left;
-  width: 50%;
   height: 250px;
   padding: 20px;  
+  width: 495px;  
 }
 
-#right {
+#aside {
   float: right;
-  width: 49%;
   height: 250px;
   padding: 20px;  
+  width: 450px;  
 }
 
 #article {
@@ -67,14 +70,6 @@ section {
   padding: 7px;  
   margin: 7px; 
 }
-
-#full {
-  width: 100%;
-  overflow: auto;
-  clear: both;
-  background: #eee;
-}
-
 
 footer {
   padding: 30px;
